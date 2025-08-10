@@ -1,0 +1,2 @@
+VERSIONAMENTO
+	- 0.0.000 "Criação da WebAPI e versionamento"
