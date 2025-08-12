@@ -1,3 +1,4 @@
 VERSIONAMENTO
 	- 0.0.000 "Criação da WebAPI e versionamento"
 	- 0.0.001 "Branch dev, Camadas Models e Data, Classes UsuarioModel e UsuarioDbContext"
+	- 0.0.002 "Migração DB"

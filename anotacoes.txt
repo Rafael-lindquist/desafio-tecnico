@@ -1,0 +1,4 @@
+- Certificado para se conectar com o servidor
+- Autenticar email com Regex?
+- Adicionar anotações no código
+- 

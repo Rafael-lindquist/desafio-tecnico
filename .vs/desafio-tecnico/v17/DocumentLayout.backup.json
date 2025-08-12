@@ -1,12 +1,103 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\desafio-tecnico\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|c:\\desafio-tecnico\\usuariosapi\\migrations\\20250812214522_criandodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|solutionrelative:usuariosapi\\migrations\\20250812214522_criandodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|c:\\desafio-tecnico\\usuariosapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|solutionrelative:usuariosapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|c:\\desafio-tecnico\\usuariosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|solutionrelative:usuariosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|c:\\desafio-tecnico\\usuariosapi\\data\\usuariosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|solutionrelative:usuariosapi\\data\\usuariosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|c:\\desafio-tecnico\\usuariosapi\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|solutionrelative:usuariosapi\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250812214522_CriandoDB.cs",
+              "DocumentMoniker": "C:\\desafio-tecnico\\UsuariosAPI\\Migrations\\20250812214522_CriandoDB.cs",
+              "RelativeDocumentMoniker": "UsuariosAPI\\Migrations\\20250812214522_CriandoDB.cs",
+              "ToolTip": "C:\\desafio-tecnico\\UsuariosAPI\\Migrations\\20250812214522_CriandoDB.cs",
+              "RelativeToolTip": "UsuariosAPI\\Migrations\\20250812214522_CriandoDB.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T21:45:26.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\desafio-tecnico\\UsuariosAPI\\Program.cs",
+              "RelativeDocumentMoniker": "UsuariosAPI\\Program.cs",
+              "ToolTip": "C:\\desafio-tecnico\\UsuariosAPI\\Program.cs",
+              "RelativeToolTip": "UsuariosAPI\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T21:32:55.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\desafio-tecnico\\UsuariosAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "UsuariosAPI\\appsettings.json",
+              "ToolTip": "C:\\desafio-tecnico\\UsuariosAPI\\appsettings.json",
+              "RelativeToolTip": "UsuariosAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-11T01:31:11.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioModel.cs",
+              "DocumentMoniker": "C:\\desafio-tecnico\\UsuariosAPI\\Models\\UsuarioModel.cs",
+              "RelativeDocumentMoniker": "UsuariosAPI\\Models\\UsuarioModel.cs",
+              "ToolTip": "C:\\desafio-tecnico\\UsuariosAPI\\Models\\UsuarioModel.cs",
+              "RelativeToolTip": "UsuariosAPI\\Models\\UsuarioModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T00:25:27.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuariosDbContext.cs",
+              "DocumentMoniker": "C:\\desafio-tecnico\\UsuariosAPI\\Data\\UsuariosDbContext.cs",
+              "RelativeDocumentMoniker": "UsuariosAPI\\Data\\UsuariosDbContext.cs",
+              "ToolTip": "C:\\desafio-tecnico\\UsuariosAPI\\Data\\UsuariosDbContext.cs",
+              "RelativeToolTip": "UsuariosAPI\\Data\\UsuariosDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T00:24:46.404Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
