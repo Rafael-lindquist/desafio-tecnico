@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using UsuariosAPI.Data;
+using UsuariosAPI.Services.Usuario;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +15,9 @@ builder.Services.AddDbContext<UsuariosDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+builder.Services.AddScoped<IUsuario, UsuarioService>(); // Dizendo que os métodos de IUsuario serão implementados por UsuarioService
+builder.Services.AddScoped<IUsuario, UsuarioService>(); // Dizendo que os métodos de IUsuario serão implementados por UsuarioService
 
 var app = builder.Build();
 
