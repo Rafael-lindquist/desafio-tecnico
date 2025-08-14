@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using UsuariosAPI.Models;
+using UsuariosAPI.Services.Usuario;
 
 namespace UsuariosAPI.Controllers
 {
@@ -7,5 +9,19 @@ namespace UsuariosAPI.Controllers
     [ApiController]
     public class UsuarioController : ControllerBase
     {
+        private readonly IUsuario _usuarioService;
+        public UsuarioController(IUsuario usuarioService)
+        {
+            _usuarioService = usuarioService;
+        }
+
+        [HttpGet("ListarUsuarios")]
+
+        public async Task<ActionResult<ResponseModel<List<UsuarioModel>>>> ListaUsuarios()
+        {
+            var usuarios = await _usuarioService.ListarUsuarios();
+            return Ok(usuarios);
+        }
+
     }
 }

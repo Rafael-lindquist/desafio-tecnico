@@ -1,0 +1,22 @@
+[
+  {
+    "ContainingType": "UsuariosAPI.Controllers.UsuarioController",
+    "Method": "ListaUsuarios",
+    "RelativePath": "api/Usuario/ListarUsuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "UsuariosAPI.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[UsuariosAPI.Models.UsuarioModel, UsuariosAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

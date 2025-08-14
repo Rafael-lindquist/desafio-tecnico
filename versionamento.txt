@@ -4,3 +4,5 @@ VERSIONAMENTO
 	- 0.0.002 "Migração DB"
 	- 0.0.003 "Adicionando Services com UsuarioServices e IUsuario e ResposeModel"
 	- 0.0.004 "Adicionando UsuarioController, Definição dos métodos ListarUsuario() e BuscarUsuarioPorId() na interface"
+	- 0.0.005 "ListarUsuario()(GET): interface para listar usuarios, criação do serviço e chamando serviço na controller (Ok no swagger)"
+	
