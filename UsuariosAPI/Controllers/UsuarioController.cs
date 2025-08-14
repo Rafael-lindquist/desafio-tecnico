@@ -23,5 +23,11 @@ namespace UsuariosAPI.Controllers
             return Ok(usuarios);
         }
 
+        [HttpGet("BuscarUsuarioPorId/{IdUsuario}")]
+        public async Task<ActionResult<ResponseModel<UsuarioModel>>> BuscarUsuarioPorId(int IdUsuario)
+        {
+            var usuario = await _usuarioService.BuscarUsuarioPorId(IdUsuario);
+            return Ok(usuario);
+        }
     }
 }

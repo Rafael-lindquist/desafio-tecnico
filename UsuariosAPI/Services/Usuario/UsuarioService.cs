@@ -11,9 +11,30 @@ namespace UsuariosAPI.Services.Usuario
         {
             _context = context;
         }
-        public Task<ResponseModel<UsuarioModel>> BuscarUsuarioPorId(int IdUsuario)
+        public async Task<ResponseModel<UsuarioModel>> BuscarUsuarioPorId(int IdUsuario)
         {
-            throw new NotImplementedException();
+            ResponseModel<UsuarioModel> resposta = new ResponseModel<UsuarioModel>();
+            try
+            {
+                var usuario = await _context.Usuarios.FirstOrDefaultAsync(usuarioDb => usuarioDb.Id == IdUsuario);
+
+                if (usuario == null)
+                {
+                    resposta.Mensagem = "Usuário não encontrado.";
+                    return resposta;
+                }
+
+                resposta.Dados = usuario;
+                resposta.Mensagem = "Usuário encontrado.";
+
+                return resposta;
+            }
+            catch (Exception e)
+            {
+                resposta.Mensagem = e.Message;
+                resposta.Status = false;
+                return resposta;
+            }
         }
 
         public async Task<ResponseModel<List<UsuarioModel>>> ListarUsuarios()
