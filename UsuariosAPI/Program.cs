@@ -17,7 +17,6 @@ builder.Services.AddDbContext<UsuariosDbContext>(options =>
 });
 
 builder.Services.AddScoped<IUsuario, UsuarioService>(); // Dizendo que os métodos de IUsuario serão implementados por UsuarioService
-builder.Services.AddScoped<IUsuario, UsuarioService>(); // Dizendo que os métodos de IUsuario serão implementados por UsuarioService
 
 var app = builder.Build();
 

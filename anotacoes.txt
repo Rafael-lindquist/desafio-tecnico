@@ -1,4 +1,16 @@
 - Certificado para se conectar com o servidor
 - Autenticar email com Regex?
 - Adicionar anotações no código
-- 
+- Fazer um README explicando o código e mostrando como usar
+- Criar um projeto do GitHub ou só deixar os issues?
+-
+
+===============================================================
+
+Listar usuário
+
+-> Definir método na interface IUsuário
+-> Fazer uma instância do banco de dados no UsuariosService (_context)
+-> Implementar um método assíncrono para listar os usuários
+-> Chamar esse método no UsuarioController (HttpGet() Ok())
+

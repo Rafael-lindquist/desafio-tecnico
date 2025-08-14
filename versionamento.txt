@@ -3,3 +3,4 @@ VERSIONAMENTO
 	- 0.0.001 "Branch dev, Camadas Models e Data, Classes UsuarioModel e UsuarioDbContext"
 	- 0.0.002 "Migração DB"
 	- 0.0.003 "Adicionando Services com UsuarioServices e IUsuario e ResposeModel"
+	- 0.0.004 "Adicionando UsuarioController, Definição dos métodos ListarUsuario() e BuscarUsuarioPorId() na interface"
