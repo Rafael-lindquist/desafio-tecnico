@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using UsuariosAPI.Data;
+using UsuariosAPI.Dto.Usuario;
 using UsuariosAPI.Models;
 
 namespace UsuariosAPI.Services.Usuario
@@ -28,6 +29,37 @@ namespace UsuariosAPI.Services.Usuario
                 resposta.Mensagem = "Usuário encontrado.";
 
                 return resposta;
+            }
+            catch (Exception e)
+            {
+                resposta.Mensagem = e.Message;
+                resposta.Status = false;
+                return resposta;
+            }
+        }
+
+        public async Task<ResponseModel<UsuarioModel>> CadastrarUsuario(CadastrarUsuarioDto cadastrarUsuarioDto)
+        {
+            // Cadastrar usuarios com as informações do DTO + DateTime.Now
+            ResponseModel<UsuarioModel> resposta = new ResponseModel<UsuarioModel>();
+
+            try
+            {
+                var Usuario = new UsuarioModel
+                {
+                    Nome = cadastrarUsuarioDto.Nome,
+                    Email = cadastrarUsuarioDto.Email,
+                    Senha = cadastrarUsuarioDto.Senha,
+                    DataDeRegistro = DateTime.Now
+                };
+                
+                _context.Usuarios.Add(Usuario);
+                await _context.SaveChangesAsync();
+                
+                resposta.Mensagem = "Usuário cadastrado com sucesso.";
+
+                return resposta;
+
             }
             catch (Exception e)
             {

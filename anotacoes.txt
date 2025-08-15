@@ -18,4 +18,16 @@ Listar usuário Ok
 
 Obter usuário por id
 
--> 
+-> Definir método na interface IUsuário
+-> Fazer uma instância do banco de dados no UsuariosService (_context)
+-> Implementar um método assíncrono para listar os usuários
+-> Chamar esse método no UsuarioController (HttpGet() Ok())
+
+========================================================================
+
+Cadastrar usuário
+
+-> Definir método na interface IUsuario
+-> Fazer DTO para mandar os dados (nome email e senha) para o ServiceUsuarios
+-> Salvar informações no banco de dados
+-> Chamar o serviço no Controller com o método Post e verificar se os dados não são nulos

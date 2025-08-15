@@ -1,4 +1,5 @@
 ﻿using UsuariosAPI.Models;
+using UsuariosAPI.Dto.Usuario;
 
 namespace UsuariosAPI.Services.Usuario
 
@@ -7,6 +8,7 @@ namespace UsuariosAPI.Services.Usuario
     {
         Task<ResponseModel<List<UsuarioModel>>> ListarUsuarios();
         Task<ResponseModel<UsuarioModel>> BuscarUsuarioPorId(int IdUsuario);
+        Task<ResponseModel<UsuarioModel>> CadastrarUsuario(CadastrarUsuarioDto cadastrarUsuarioDto);
 
     }
 }
