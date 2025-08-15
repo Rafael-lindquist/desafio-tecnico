@@ -69,6 +69,62 @@ namespace UsuariosAPI.Services.Usuario
             }
         }
 
+        public async Task<ResponseModel<UsuarioModel>> DeletarUsuario(int IdUsuario)
+        {
+            ResponseModel<UsuarioModel> resposta = new ResponseModel<UsuarioModel>();
+            try
+            {
+                var usuario = _context.Usuarios.FirstOrDefault(usuarioDb => usuarioDb.Id == IdUsuario);
+                if (usuario == null)
+                {
+                    resposta.Mensagem = "Usuário não encontrado.";
+                    return resposta;
+                }
+                _context.Usuarios.Remove(usuario);
+                _context.SaveChanges();
+                resposta.Mensagem = "Usuário excluido com sucesso.";
+                return resposta;
+            }
+            catch (Exception e)
+            {
+                resposta.Mensagem = e.Message;
+                resposta.Status = false;
+                return resposta;
+            }
+
+        }
+
+        public async Task<ResponseModel<UsuarioModel>> EditarUsuario(EditarUsuarioDto editarUsuarioDto)
+        {
+            ResponseModel<UsuarioModel> resposta = new ResponseModel<UsuarioModel>();
+
+            try
+            {
+                var usuario = _context.Usuarios.FirstOrDefault(usuarioDb => usuarioDb.Id == editarUsuarioDto.Id);
+
+                if (usuario == null)
+                {
+                    resposta.Mensagem = "Usuario não encontrado.";
+                    return resposta;
+                }
+
+                usuario.Nome = editarUsuarioDto.Nome;
+                usuario.Email = editarUsuarioDto.Email;
+                usuario.Senha = editarUsuarioDto.Senha;
+                _context.Usuarios.Update(usuario);
+                await _context.SaveChangesAsync();
+
+                resposta.Mensagem = "Dados do usuário atualizados com sucesso";
+                return resposta;
+            }
+            catch (Exception e)
+            {
+                resposta.Mensagem = e.Message;
+                resposta.Status = false;
+                return resposta;
+            }
+        }
+
         public async Task<ResponseModel<List<UsuarioModel>>> ListarUsuarios()
         {
             ResponseModel<List<UsuarioModel>> resposta = new ResponseModel<List<UsuarioModel>>();

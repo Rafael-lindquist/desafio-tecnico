@@ -8,3 +8,4 @@ VERSIONAMENTO
 	- 0.0.006 "Merge da branch dev e main"
 	- 0.0.007 "Adicionando BuscarUsuarioPorId"
 	- 0.0.008 "Adicionando Camada Dto e implementado o CadastrarUsuario() *ainda falta salvar a senha com hash"
+	- 0.0.009 "Adicionando EditarUsuario e DeletarUsuario (Não testei no swagger)"

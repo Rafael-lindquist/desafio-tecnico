@@ -9,6 +9,9 @@ namespace UsuariosAPI.Services.Usuario
         Task<ResponseModel<List<UsuarioModel>>> ListarUsuarios();
         Task<ResponseModel<UsuarioModel>> BuscarUsuarioPorId(int IdUsuario);
         Task<ResponseModel<UsuarioModel>> CadastrarUsuario(CadastrarUsuarioDto cadastrarUsuarioDto);
+        Task<ResponseModel<UsuarioModel>> EditarUsuario(EditarUsuarioDto editarUsuarioDto);
+        Task<ResponseModel<UsuarioModel>> DeletarUsuario(int IdUsuario);
+
 
     }
 }

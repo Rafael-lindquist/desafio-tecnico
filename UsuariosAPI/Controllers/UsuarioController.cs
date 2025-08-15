@@ -45,5 +45,27 @@ namespace UsuariosAPI.Controllers
             var usuario = await _usuarioService.CadastrarUsuario(cadastrarUsuarioDto);
             return Ok(usuario);
         }
+
+        [HttpPut("EditarUsuario")]
+        public async Task<ActionResult<ResponseModel<UsuarioModel>>> EditarUsuario([FromBody] EditarUsuarioDto editarUsuarioDto)
+        {
+            if (editarUsuarioDto == null)
+            {
+                return BadRequest(new ResponseModel<UsuarioModel>
+                {
+                    Mensagem = "Os dados do usuário não podem ser nulos",
+                    Status = false
+                });
+            }
+            var usuario = await _usuarioService.EditarUsuario(editarUsuarioDto);
+            return Ok(usuario);
+        }
+
+        [HttpDelete("DeletarUsuario/{IdUsuario}")]
+        public async Task<ActionResult<ResponseModel<UsuarioModel>>> DeletarUsuario(int IdUsuario)
+        {
+            var usuario = await _usuarioService.DeletarUsuario(IdUsuario);
+            return Ok(usuario);
+        }
     }
 }
