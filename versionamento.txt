@@ -10,4 +10,5 @@ VERSIONAMENTO
 	- 0.0.008 "Adicionando Camada Dto e implementado o CadastrarUsuario() *ainda falta salvar a senha com hash"
 	- 0.0.009 "Adicionando EditarUsuario e DeletarUsuario (Não testei no swagger)"
 	- 0.0.010 "Adicionando UML"
-	- 0.0.0.11 "Mudando a UML"
+	- 0.0.011 "Mudando a UML"
+	- 0.0.012 "Merge da branch dev e main"
