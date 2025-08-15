@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\desafio-tecnico\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|c:\\desafio-tecnico\\usuariosapi\\services\\usuario\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|solutionrelative:usuariosapi\\services\\usuario\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|c:\\desafio-tecnico\\usuariosapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|solutionrelative:usuariosapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|c:\\desafio-tecnico\\usuariosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|solutionrelative:usuariosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|c:\\desafio-tecnico\\usuariosapi\\services\\usuario\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|solutionrelative:usuariosapi\\services\\usuario\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|c:\\desafio-tecnico\\usuariosapi\\services\\usuario\\iusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,12 +19,12 @@
       "RelativeMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|solutionrelative:usuariosapi\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|c:\\desafio-tecnico\\usuariosapi\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|solutionrelative:usuariosapi\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|c:\\desafio-tecnico\\usuariosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|solutionrelative:usuariosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|c:\\desafio-tecnico\\usuariosapi\\dto\\usuario\\cadastrarusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|solutionrelative:usuariosapi\\dto\\usuario\\cadastrarusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|c:\\desafio-tecnico\\usuariosapi\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D36DF30-A3CB-4AFB-89BB-4F751D0C6A86}|UsuariosAPI\\UsuariosAPI.csproj|solutionrelative:usuariosapi\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,37 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CadastrarUsuarioDto.cs",
-              "DocumentMoniker": "C:\\desafio-tecnico\\UsuariosAPI\\Dto\\Usuario\\CadastrarUsuarioDto.cs",
-              "RelativeDocumentMoniker": "UsuariosAPI\\Dto\\Usuario\\CadastrarUsuarioDto.cs",
-              "ToolTip": "C:\\desafio-tecnico\\UsuariosAPI\\Dto\\Usuario\\CadastrarUsuarioDto.cs",
-              "RelativeToolTip": "UsuariosAPI\\Dto\\Usuario\\CadastrarUsuarioDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T23:58:56.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\desafio-tecnico\\UsuariosAPI\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "UsuariosAPI\\Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\desafio-tecnico\\UsuariosAPI\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "UsuariosAPI\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAqwCgAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAkwEAAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-13T23:33:45.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\desafio-tecnico\\UsuariosAPI\\Program.cs",
               "RelativeDocumentMoniker": "UsuariosAPI\\Program.cs",
@@ -76,31 +59,30 @@
               "RelativeToolTip": "UsuariosAPI\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T21:32:55.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T21:32:55.103Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "IUsuario.cs",
               "DocumentMoniker": "C:\\desafio-tecnico\\UsuariosAPI\\Services\\Usuario\\IUsuario.cs",
               "RelativeDocumentMoniker": "UsuariosAPI\\Services\\Usuario\\IUsuario.cs",
               "ToolTip": "C:\\desafio-tecnico\\UsuariosAPI\\Services\\Usuario\\IUsuario.cs",
               "RelativeToolTip": "UsuariosAPI\\Services\\Usuario\\IUsuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-12T23:11:19.354Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "UsuarioModel.cs",
               "DocumentMoniker": "C:\\desafio-tecnico\\UsuariosAPI\\Models\\UsuarioModel.cs",
               "RelativeDocumentMoniker": "UsuariosAPI\\Models\\UsuarioModel.cs",
               "ToolTip": "C:\\desafio-tecnico\\UsuariosAPI\\Models\\UsuarioModel.cs",
               "RelativeToolTip": "UsuariosAPI\\Models\\UsuarioModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-14T23:59:26.899Z",
               "EditorCaption": ""
@@ -115,18 +97,17 @@
               "RelativeToolTip": "UsuariosAPI\\Models\\ResponseModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T23:16:44.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T23:16:44.589Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UsuarioService.cs",
               "DocumentMoniker": "C:\\desafio-tecnico\\UsuariosAPI\\Services\\Usuario\\UsuarioService.cs",
               "RelativeDocumentMoniker": "UsuariosAPI\\Services\\Usuario\\UsuarioService.cs",
               "ToolTip": "C:\\desafio-tecnico\\UsuariosAPI\\Services\\Usuario\\UsuarioService.cs",
               "RelativeToolTip": "UsuariosAPI\\Services\\Usuario\\UsuarioService.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAwDoAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAcwHQAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-12T23:10:30.998Z",
               "EditorCaption": ""
